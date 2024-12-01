@@ -1,0 +1,11 @@
+// a program to print the marks of the student
+  const obj={
+    rohan: 71,
+    hari: 88, 
+    ravi: 92
+};
+
+for (const key in object) {
+        const element = object[key];
+        console.log("The data are", key, element);
+    }
